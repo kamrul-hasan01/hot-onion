@@ -21,10 +21,11 @@ const Header = () => {
                             alt="React Bootstrap logo"
                         />
                     </Navbar.Brand>
-                    <Nav className="ms-auto">
-                        <Nav.Link as={Link} to="/shoppingcart">{element}</Nav.Link>
-                        <Nav.Link as={Link} to="/login">Login</Nav.Link>
-                        <Nav.Link as={Link} to="/signup"><Button variant="danger">Sing up</Button></Nav.Link>
+                    <Nav className="ms-auto  ">
+                        <Nav.Link as={Link} to="/shoppingcart" className="pt-1 fs-3">{element}</Nav.Link>
+                        <Nav.Link as={Link} to="/login" className="fs-4">Login</Nav.Link>
+                        <Nav.Link as={Link} to="/signup"><Button variant="danger" >Sing up</Button></Nav.Link>
+
                     </Nav>
                 </Container>
             </Navbar>

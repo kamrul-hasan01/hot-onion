@@ -1,0 +1,20 @@
+.signup-bg{
+    background-image: url('../../img/bannerbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sigin-text {
+    margin-top: 15px;
+   
+}
+.sigin-text a{
+    
+    text-decoration: none;
+    color: #BB2D3B;
+}
+.sigin-text a:hover{
+    
+    
+    color: #372dbb;
+    border-bottom: 2px solid blue ;
+}

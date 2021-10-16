@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "Salmon with grapefruit and lentil salad",
+        "detail": " Flatten the bread and mix up the filling and coating. Using a rolling pin, flatten the bread out.The cream cheese makes the bread a bit more filling, and tastes great mixed in with the garlic, paprika, and fresh parsley.",
+        "price": "6.99",
+        "image": "https://i.ibb.co/2c43FSN/dinner1.png"
+    },
+    {
+        "id": "2",
+        "title": "Lemony salmon piccata",
+        "detail": " Flatten the bread and mix up the filling and coating. Using a rolling pin, flatten the bread out.The cream cheese makes the bread a bit more filling, and tastes great mixed in with the garlic, paprika, and fresh parsley.",
+        "price": "9.99",
+        "image": "https://i.ibb.co/dL2FVWX/dinner2.png"
+    },
+    {
+        "id": "3",
+        "title": "Pork tendorloin with quinoa pilaf",
+        "detail": " Flatten the bread and mix up the filling and coating. Using a rolling pin, flatten the bread out.The cream cheese makes the bread a bit more filling, and tastes great mixed in with the garlic, paprika, and fresh parsley.",
+        "price": "10.99",
+        "image": "https://i.ibb.co/DGk594V/dinner3.png"
+    },
+    {
+        "id": "4",
+        "title": "French fries with cheese",
+        "detail": " Flatten the bread and mix up the filling and coating. Using a rolling pin, flatten the bread out.The cream cheese makes the bread a bit more filling, and tastes great mixed in with the garlic, paprika, and fresh parsley.",
+        "price": "8.99",
+        "image": "https://i.ibb.co/KWG0Gqd/dinner4.png"
+    },
+    {
+        "id": "5",
+        "title": "Garlic butter baked salmon",
+        "detail": " Flatten the bread and mix up the filling and coating. Using a rolling pin, flatten the bread out.The cream cheese makes the bread a bit more filling, and tastes great mixed in with the garlic, paprika, and fresh parsley.",
+        "price": "19.99",
+        "image": "https://i.ibb.co/pdt2Xqt/dinner5.png"
+    },
+    {
+        "id": "6",
+        "title": "Baked chicken",
+        "detail": " Flatten the bread and mix up the filling and coating. Using a rolling pin, flatten the bread out.The cream cheese makes the bread a bit more filling, and tastes great mixed in with the garlic, paprika, and fresh parsley.",
+        "price": "3.99",
+        "image": "https://i.ibb.co/NV9tVDX/dinner6.png"
+    }
+]

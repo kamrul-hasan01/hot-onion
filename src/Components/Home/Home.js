@@ -1,9 +1,14 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import Choose from '../Choose/Choose';
+import Main from '../Main/Main';
 
 const Home = () => {
     return (
         <div>
-            <h2>home</h2>
+            <Banner></Banner>
+            <Main></Main>
+            <Choose></Choose>
 
         </div>
     );
