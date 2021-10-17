@@ -1,4 +1,5 @@
 import './App.css';
+import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -13,6 +14,7 @@ import Dinner from './Components/Dinner/Dinner';
 import Banner from './Components/Banner/Banner';
 import Choose from './Components/Choose/Choose';
 import Catagories from './Components/Catagories/Catagories';
+import ItemDetails from './Components/ItemDetails/ItemDetails';
 
 
 
@@ -48,6 +50,12 @@ function App() {
             <Catagories></Catagories>
             <Dinner></Dinner>
             <Choose></Choose>
+          </Route>
+          <Route path='/itemdetails/:name'>
+            <Banner></Banner>
+            <Catagories></Catagories>
+            <ItemDetails></ItemDetails>
+
           </Route>
           <Route path='/shoppingcart'>
             <ShoppingCart></ShoppingCart>

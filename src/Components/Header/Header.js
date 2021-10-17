@@ -4,9 +4,12 @@ import logo from '../../img/logo2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
+import useItem from '../hooks/useItem';
 
 
 const Header = () => {
+    const { shopping } = useItem();
+    console.log(shopping.length)
     const element = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <>
@@ -22,7 +25,7 @@ const Header = () => {
                         />
                     </Navbar.Brand>
                     <Nav className="ms-auto  ">
-                        <Nav.Link as={Link} to="/shoppingcart" className="pt-1 fs-3">{element}</Nav.Link>
+                        <Nav.Link as={Link} to="/shoppingcart" className="pt-1 fs-3">{element}{shopping.length + 1}</Nav.Link>
                         <Nav.Link as={Link} to="/login" className="fs-4">Login</Nav.Link>
                         <Nav.Link as={Link} to="/signup"><Button variant="danger" >Sing up</Button></Nav.Link>
 
